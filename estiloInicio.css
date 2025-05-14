@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .header-con-imagen {
+    background-color: #E4A9C4;
+  }
+  
+  .barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    color: #E4A9C4;
+  }
+  
+  .barra-navegacion .logo {
+    width: 120px;
+  }
+  
+  .barra-navegacion nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    padding: 2cm 2cm;
+  }
+  
+  .barra-navegacion nav a.activo,
+  .barra-navegacion nav a:hover {
+    background-color: #fdb3c0;
+  }
+  
+  .carrusel {
+    display: flex;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+  }
+  
+  .carrusel img {
+    width: 100%;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .carrusel img.active {
+    display: block;
+  }
+  
+  .categorias {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+  }
+  
+  .categorias button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #eee;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .categorias button.activo,
+  .categorias button:hover {
+    background-color: #fdb3c0;
+    color: white;
+  }
+  
+  .productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px 40px;
+  }
+  
+  .producto {
+    background-color: #fff8f8;
+    border: 1px solid #f2dcdc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    width: 220px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .producto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .producto button {
+    margin-top: 10px;
+    background-color: #fdb3c0;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .producto button:hover {
+    background-color: #e68fa2;
+  }
+  
+  .footer {
+    background-color: #E4A9C4;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer .logo {
+    width: 100px;
+  }
+  
+  .footer .links {
+    text-align: left;
+  }
+  
+  .footer .links h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer .links a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  .footer .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .social img {
+    width: 30px;
+    margin: 0 10px;
+  }
+  

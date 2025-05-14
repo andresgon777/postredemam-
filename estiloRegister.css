@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+  }
+  
+  .header-con-imagen {
+    background-color: whitesmoke;
+    padding-bottom: 1rem;
+  }
+  
+  .barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #E4A9C4;
+  }
+  
+  .barra-navegacion .logo {
+    height: 150px;
+    width: auto;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 2cm 2cm;
+  }
+  
+  nav a:hover {
+    color: #da0871;
+  }
+  
+  .carrusel {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+  }
+  
+  .carrusel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carrusel img.active {
+    opacity: 1;
+    position: relative;
+  }
+  
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #da0871;
+  }
+  
+  .login-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .botones button, .botones a, .btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    color: black;
+  }
+  
+  .btn.rosa {
+    background-color: #f8c9dd;
+    color: black;
+  }
+  
+  .mensaje.rojo {
+    color: rgb(224, 73, 73);
+    font-size: 14px;
+  }
+  
+  .campo h5 {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  .footer {
+    background-color: #E4A9C4;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer .logo {
+    height: 200px;
+    width: auto;
+  }
+  
+  .footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-self: center;
+  }
+  
+  .footer .links h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer .links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer .links a:hover {
+    color: #da0871;
+  }
+  
+  .footer .social img {
+    height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
